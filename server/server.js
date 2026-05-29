@@ -8,6 +8,9 @@ require("dotenv").config({
 const Contact = require("./models/contact");
 
 const app = express();
+app.get("/",(req,res)=>{
+  res.send("backend is running");
+});
 
 app.use(cors());
 app.use(express.json());
