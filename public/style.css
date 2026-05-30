@@ -165,11 +165,18 @@ nav ul li a:hover {
   padding: 30px;
   transition: 0.3s;
   backdrop-filter: blur(10px);
+  color: #38bdf8;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8px) scale(1.02);
   box-shadow: 0 15px 35px rgba(37,99,235,0.3);
+  
 }
 
 .project-card h3 {
